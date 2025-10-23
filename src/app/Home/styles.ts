@@ -7,9 +7,8 @@ export const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
   },
-  title: {
-    fontSize: 32,
-    fontWeight: "bold",
-    color: "blue",
+  logo: {
+    width: 134,
+    height: 34,
   },
 });
