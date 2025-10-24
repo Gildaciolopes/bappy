@@ -9,9 +9,12 @@ export function Home() {
   return (
     <View style={styles.container}>
       <Image source={require("@/assets/bappyLogo.png")} style={styles.logo} />
+      <View style={styles.form}>
+        <Input placeholder="O que você precisa comprar?" />
+        <Button title="Adicionar" />
+      </View>
 
-      <Input placeholder="O que você precisa comprar?" />
-      <Button title="Adicionar" />
+      <View style={styles.content}></View>
     </View>
   );
 }
